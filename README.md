@@ -1,4 +1,4 @@
-## Accessting the task
+## Accessing the task
 
 First, run the development server:
 ```bash
