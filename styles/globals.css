@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply transition-all duration-300;
+    @apply min-h-screen;
+    @apply font-manrope;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply text-secondary dark:text-[#ccc];
+  color: "#0D0630";
+}
+p {
+  @apply text-secondary dark:text-[#ccc];
+  color: "#0D0630";
+}
+
+.section-container {
+  @apply mx-auto max-w-[85%] lg:max-w-[80%];
+}
+
+.bg-container {
+  @apply mx-auto max-w-[85%] lg:max-w-[80%];
+}
+
+.section-padding {
+  @apply py-16 lg:py-24 2xl:py-32;
+}
+
+summary::marker {
+  margin-right: 20px;
+}
+
+html,
+*,
+body {
+  @apply scroll-smooth;
+}
