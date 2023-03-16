@@ -15,7 +15,6 @@ export { default as ConnectCustomers } from "./home/ConnectCustomers";
 
 // SHARED
 export { default as Testimonials } from "./shared/Testimonials";
-export { default as Team } from "./shared/Team";
 export { default as CTA } from "./shared/CTA";
 export { default as AccordionItem } from "./shared/AccordionItem";
 export { default as Accordion } from "./shared/Accordion";
